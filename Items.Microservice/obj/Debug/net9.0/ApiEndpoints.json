@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "Items.Microservice.Controllers.ItemsController",
+    "Method": "Create",
+    "RelativePath": "api/Items",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Items.Microservice.Dtos.CreateItemDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

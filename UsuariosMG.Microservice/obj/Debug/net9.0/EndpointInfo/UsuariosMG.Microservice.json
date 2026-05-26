@@ -1,0 +1,49 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "UsuariosMG.Microservice",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Usuario": {
+      "get": {
+        "tags": [
+          "Usuario"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Usuario/{username}/stats": {
+      "get": {
+        "tags": [
+          "Usuario"
+        ],
+        "parameters": [
+          {
+            "name": "username",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { },
+  "tags": [
+    {
+      "name": "Usuario"
+    }
+  ]
+}

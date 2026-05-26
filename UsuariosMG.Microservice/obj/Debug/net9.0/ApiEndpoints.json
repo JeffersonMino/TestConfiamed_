@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "UsuariosMG.Microservice.Controllers.UsuarioController",
+    "Method": "GetAll",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsuariosMG.Microservice.Controllers.UsuarioController",
+    "Method": "GetStats",
+    "RelativePath": "api/Usuario/{username}/stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
