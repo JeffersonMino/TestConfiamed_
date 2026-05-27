@@ -1,0 +1,13 @@
+CREATE TABLE Items ( 
+Id INT PRIMARY KEY IDENTITY,
+ Title NVARCHAR(200), 
+Description NVARCHAR(MAX),
+ AssignedUser NVARCHAR(100),
+ DueDate DATETIME, Relevance INT,
+ Status INT, CreatedAt DATETIME 
+);
+
+CREATE TABLE Usuarios (
+ Id INT PRIMARY KEY IDENTITY,
+ Username NVARCHAR(100)
+ );

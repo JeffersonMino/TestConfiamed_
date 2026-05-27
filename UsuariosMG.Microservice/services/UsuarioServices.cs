@@ -6,11 +6,17 @@ using UsuariosMG.Microservice.Models;
 
 namespace UsuariosMG.Microservice.Services
 {
+    /// <summary>
+    /// Servicio encargado de la lógica de negocio de usuarios.
+    /// </summary>
     public class UsuarioServices : IUsuarioServices
     {
         private readonly IUsuarioRepository _repository;
         private readonly AppDbContext _context;
 
+        /// <summary>
+        /// Constructor del servicio.
+        /// </summary>
         public UsuarioServices(
             IUsuarioRepository repository,
             AppDbContext context)
@@ -19,6 +25,9 @@ namespace UsuariosMG.Microservice.Services
             _context = context;
         }
 
+        /// <summary>
+        /// Obtiene todos los usuarios.
+        /// </summary>
         public async Task<List<Usuario>> GetAllAsync()
         {
             return await _repository.GetAllAsync();
@@ -51,5 +60,30 @@ namespace UsuariosMG.Microservice.Services
                 EstaSaturado = highPriority > 3
             };
         }
+
+        /// <summary>
+        /// Crea un nuevo usuario.
+        /// </summary>
+        /// <param name="dto">Datos del usuario.</param>
+        public async Task CreateAsync(Usuario dto)
+        {
+            var user = new Usuario
+            {
+                Username = dto.Username
+            };
+
+            await _repository.AddAsync(user);
+
+            await _repository.SaveChangesAsync();
+        }
+        /// <summary>
+        /// Determina si un usuario está saturado.
+        /// </summary>
+        /// <param name="username">Nombre del usuario.</param>
+        public async Task<bool> IsUserSaturated(string username)
+        {
+            return await _repository.IsUserSaturated(username);
+        }
+
     }
 }

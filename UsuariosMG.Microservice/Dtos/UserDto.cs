@@ -1,5 +1,8 @@
 ﻿namespace UsuariosMG.Microservice.Dtos
 {
+    /// <summary>
+    /// DTO utilizado para crear usuarios.
+    /// </summary>
     public class UserDto
     {
         public string NombreUsuario { get; set; }

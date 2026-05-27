@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Confiamed\\Items.Microservice\\Items.Microservice.csproj": {}
+    "D:\\TestConfiamed\\Items.Microservice\\Items.Microservice.csproj": {}
   },
   "projects": {
-    "D:\\Confiamed\\Items.Microservice\\Items.Microservice.csproj": {
+    "D:\\TestConfiamed\\Items.Microservice\\Items.Microservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Confiamed\\Items.Microservice\\Items.Microservice.csproj",
+        "projectUniqueName": "D:\\TestConfiamed\\Items.Microservice\\Items.Microservice.csproj",
         "projectName": "Items.Microservice",
-        "projectPath": "D:\\Confiamed\\Items.Microservice\\Items.Microservice.csproj",
+        "projectPath": "D:\\TestConfiamed\\Items.Microservice\\Items.Microservice.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Confiamed\\Items.Microservice\\obj\\",
+        "outputPath": "D:\\TestConfiamed\\Items.Microservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,19 +50,27 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.21.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.9, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.9, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.9, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.Extensions.Caching.Memory": {
               "target": "Package",

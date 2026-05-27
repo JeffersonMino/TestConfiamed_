@@ -1,9 +1,9 @@
 using Items.Microservice.Data;
 using Items.Microservice.Interfaces;
+using Items.Microservice.Middlewares;
 using Items.Microservice.Repositories;
 using Items.Microservice.Services;
 using Microsoft.EntityFrameworkCore;
-
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,6 +30,8 @@ if (app.Environment.IsDevelopment())
 
     app.UseSwaggerUI();
 }
+
+app.UseMiddleware<ExceptionMiddleware>();
 
 app.UseHttpsRedirection();
 

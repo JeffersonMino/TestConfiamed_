@@ -1,16 +1,23 @@
 ﻿using Items.Microservice.Data;
 using Items.Microservice.Dtos;
+using Items.Microservice.Helpers;
 using Items.Microservice.Interfaces;
 using Items.Microservice.Models;
 using Microsoft.EntityFrameworkCore;
 using static Items.Microservice.Models.Items;
 
 namespace Items.Microservice.Services
-{
+{   
+    /// <summary>
+    /// Servicio encargado de la lógica de negocio relacionada
+    /// con la creación y asignación inteligente de ítems.
+    /// </summary>
+
     public class ItemServices : IItemServices
     {
         private readonly IItemRepository _repository;
         private readonly AppDbContext _context;
+
 
         public ItemServices(IItemRepository repository,
             AppDbContext context)
@@ -18,6 +25,12 @@ namespace Items.Microservice.Services
             _repository = repository;
             _context = context;
         }
+
+        /// <summary>
+        /// Crea y asigna automáticamente un ítem de trabajo
+        /// según urgencia, relevancia y saturación.
+        /// </summary>
+        /// <param name="dto">Datos del ítem.</param>
 
         public async Task CreateAsync(CreateItemDto dto)
         {
@@ -53,6 +66,13 @@ namespace Items.Microservice.Services
                         x.Status == Status.Pending &&
                         x.Relevance == Relevance.High);
 
+                var userItems = await _context.Items
+                 .Where(x => x.AssignedUser == assignedUser)
+                 .ToListAsync();
+
+                var orderedItems = AssignmentHelper
+                    .SortPendingItems(userItems);
+
                 userStats.Add(new
                 {
                     Username = user.Username,
@@ -61,7 +81,7 @@ namespace Items.Microservice.Services
                     HighPending = highPriorityPending
                 });
             }
-             
+            
 
             // validamos las reglas 
             if (isUrgent)
@@ -101,6 +121,14 @@ namespace Items.Microservice.Services
             await _repository.AddAsync(workItem);
 
             await _repository.SaveChangesAsync();
+        }
+
+        /// <summary>
+        /// Obtiene todos los ítems registrados.
+        /// </summary>
+        public async Task<IEnumerable<Item>> GetAllAsync()
+        {
+            return await _repository.GetAllAsync();
         }
     }
 }

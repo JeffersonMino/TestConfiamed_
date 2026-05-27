@@ -2,6 +2,9 @@
 {
     public class Items
     {
+        /// <summary>
+        /// Representa un ítem de trabajo.
+        /// </summary>
         public class Item
         {
             public int Id { get; set; }
@@ -19,6 +22,7 @@
             public Status Status { get; set; }
 
             public DateTime CreatedAt { get; set; }
+            public int PriorityOrder { get; internal set; }
         }
     }
 

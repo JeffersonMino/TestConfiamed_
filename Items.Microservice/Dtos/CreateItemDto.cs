@@ -1,5 +1,8 @@
 ﻿namespace Items.Microservice.Dtos
 {
+    /// <summary>
+    /// DTO utilizado para crear un ítem.
+    /// </summary>
     public class CreateItemDto
     {
         public string Title { get; set; }

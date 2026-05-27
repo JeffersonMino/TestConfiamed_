@@ -1,4 +1,4 @@
-# Work Distribution System
+# MricoDistribusion
 
 Sistema de distribución inteligente de ítems de trabajo desarrollado con:
 
@@ -6,6 +6,23 @@ Sistema de distribución inteligente de ítems de trabajo desarrollado con:
 - SQL Server
 - Entity Framework Core
 - Arquitectura de Microservicios
+
+
+## Architecture
+
+The solution uses a microservices architecture:
+
+- Items.Microservice
+- UserManagement.Microservice
+
+## Layers
+
+- Controllers
+- Services
+- Repositories
+- DTOs
+- Models
+- Data
 
 ## Microservicios
 
@@ -22,13 +39,6 @@ Gestiona:
 - estadísticas
 - carga laboral
 
-## Tecnologías
-
-- .NET 8
-- SQL Server
-- Swagger
-- C#
-
 ## Reglas de negocio
 
 - tareas urgentes:
@@ -38,9 +48,19 @@ Gestiona:
 - usuarios saturados:
   más de 3 tareas HIGH
 
+## Tecnologías
+
+- ASP.NET Core
+- SQL Server
+- Entity Framework Core
+- Swagger
+
 ## Ejecución
 
-1. Configurar SQL Server
-2. Configurar appsettings.json
-3. Ejecutar:
-   dotnet run
+1. Configure SQL Server
+2. Update appsettings.json
+3. Execute:
+
+dotnet restore
+dotnet build
+dotnet run
