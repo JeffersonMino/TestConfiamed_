@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Document",
@@ -68,11 +68,10 @@
               "RelativeDocumentMoniker": "UsuariosMG.Microservice\\Controllers\\UsuarioController.cs",
               "ToolTip": "D:\\TestConfiamed\\UsuariosMG.Microservice\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "UsuariosMG.Microservice\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAABBwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-27T00:54:20.947Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -85,8 +84,7 @@
               "ViewState": "AgIAAA8AAAAAAAAAAAAkwEwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-27T00:57:24.401Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -99,8 +97,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-27T01:00:00.663Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -113,51 +110,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-27T01:01:48.556Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "D:\\TestConfiamed\\UsuariosMG.Microservice\\Middlewares\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "UsuariosMG.Microservice\\Middlewares\\ExceptionMiddleware.cs",
-              "ToolTip": "D:\\TestConfiamed\\UsuariosMG.Microservice\\Middlewares\\ExceptionMiddleware.cs",
-              "RelativeToolTip": "UsuariosMG.Microservice\\Middlewares\\ExceptionMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T01:05:06.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AssignmentHelper.cs",
-              "DocumentMoniker": "D:\\TestConfiamed\\UsuariosMG.Microservice\\Helpers\\AssignmentHelper.cs",
-              "RelativeDocumentMoniker": "UsuariosMG.Microservice\\Helpers\\AssignmentHelper.cs",
-              "ToolTip": "D:\\TestConfiamed\\UsuariosMG.Microservice\\Helpers\\AssignmentHelper.cs",
-              "RelativeToolTip": "UsuariosMG.Microservice\\Helpers\\AssignmentHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T01:04:04.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\TestConfiamed\\UsuariosMG.Microservice\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "UsuariosMG.Microservice\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\TestConfiamed\\UsuariosMG.Microservice\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "UsuariosMG.Microservice\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T01:03:26.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -185,6 +138,42 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\TestConfiamed\\UsuariosMG.Microservice\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "UsuariosMG.Microservice\\Middlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\TestConfiamed\\UsuariosMG.Microservice\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "UsuariosMG.Microservice\\Middlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T01:05:06.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssignmentHelper.cs",
+              "DocumentMoniker": "D:\\TestConfiamed\\UsuariosMG.Microservice\\Helpers\\AssignmentHelper.cs",
+              "RelativeDocumentMoniker": "UsuariosMG.Microservice\\Helpers\\AssignmentHelper.cs",
+              "ToolTip": "D:\\TestConfiamed\\UsuariosMG.Microservice\\Helpers\\AssignmentHelper.cs",
+              "RelativeToolTip": "UsuariosMG.Microservice\\Helpers\\AssignmentHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T01:04:04.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\TestConfiamed\\UsuariosMG.Microservice\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "UsuariosMG.Microservice\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\TestConfiamed\\UsuariosMG.Microservice\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "UsuariosMG.Microservice\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T01:03:26.804Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ItemsController.cs",
               "DocumentMoniker": "D:\\TestConfiamed\\Items.Microservice\\Controllers\\ItemsController.cs",
@@ -193,8 +182,7 @@
               "RelativeToolTip": "Items.Microservice\\Controllers\\ItemsController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAkwCQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T00:55:47.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T00:55:47.095Z"
             },
             {
               "$type": "Document",
@@ -204,7 +192,7 @@
               "RelativeDocumentMoniker": "UsuariosMG.Microservice\\Repositories\\UsuarioRepository.cs",
               "ToolTip": "D:\\TestConfiamed\\UsuariosMG.Microservice\\Repositories\\UsuarioRepository.cs",
               "RelativeToolTip": "UsuariosMG.Microservice\\Repositories\\UsuarioRepository.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAUwCsAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwAoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-27T00:58:37.609Z",
               "EditorCaption": ""
@@ -219,8 +207,7 @@
               "RelativeToolTip": "UsuariosMG.Microservice\\Models\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T01:01:01.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T01:01:01.54Z"
             },
             {
               "$type": "Document",
@@ -232,8 +219,7 @@
               "RelativeToolTip": "UsuariosMG.Microservice\\Models\\Item.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T01:03:03.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T01:03:03.614Z"
             },
             {
               "$type": "Document",
@@ -245,8 +231,7 @@
               "RelativeToolTip": "UsuariosMG.Microservice\\Dtos\\UserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T00:56:50.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T00:56:50.388Z"
             }
           ]
         },
